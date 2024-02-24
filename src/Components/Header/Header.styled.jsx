@@ -1,15 +1,26 @@
 import styled from "styled-components";
 
 export const MenuContainer = styled.div`
-  position: absolute;
-  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+`;
+
+export const HeaderTitle = styled.p`
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
 `;
 
 export const MenuBtn = styled.a`
   position: relative;
   display: block;
+  margin-left: auto;
   height: 40px;
   width: 40px;
   border: 3px solid white;
