@@ -4,7 +4,7 @@ export const AboutMeTitle = styled.h2`
   margin-bottom: 20px;
 
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 1.4;
   text-align: center;
@@ -24,7 +24,7 @@ export const AboutMeTitle = styled.h2`
 export const AboutMeList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 `;
 
 export const AboutMeItem = styled.li``;
@@ -34,13 +34,18 @@ export const AboutMeImg = styled.img`
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
+  transition: transform 1s linear;
+
+  &:hover {
+    transform: rotateY(360deg);
+  }
 `;
 
 export const AboutMeSubtitle = styled.h3`
   margin-bottom: 10px;
 
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
   text-align: center;

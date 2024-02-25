@@ -4,6 +4,9 @@ export const MenuContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
   /* position: absolute; */
   /* top: 50%;
   left: 50%;
@@ -18,6 +21,8 @@ export const HeaderTitle = styled.p`
 `;
 
 export const MenuBtn = styled.a`
+  z-index: 100;
+  position: fixed;
   position: relative;
   display: block;
   margin-left: auto;

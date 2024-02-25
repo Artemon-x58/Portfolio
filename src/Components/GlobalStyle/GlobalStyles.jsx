@@ -9,6 +9,9 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: 100vh;
   }
+  body.ReactModal__Body--open {
+    overflow: hidden; 
+  }
 
   h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -24,6 +27,7 @@ export const GlobalStyles = createGlobalStyle`
     color: currentColor;
     text-decoration: none;
     outline: transparent;
+    cursor: pointer;
   }
 
   button {
