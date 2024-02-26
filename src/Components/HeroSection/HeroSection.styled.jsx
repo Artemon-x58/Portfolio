@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+import heroImg from "../../img/hero.jpg";
+
+export const HeroImg = styled.div`
+  height: 100vh;
+  background-image: url(${heroImg});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+`;
+
 export const WrapperHero = styled.div`
   border: 1px solid #cd853f;
   border-radius: 20px;
