@@ -2,19 +2,17 @@ import styled from "styled-components";
 
 export const MenuContainer = styled.div`
   display: flex;
-  justify-content: center;
+  position: absolute;
+  justify-content: space-between;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  width: 100%;
 `;
 
 export const HeaderTitle = styled.p`
   color: white;
+  display: block;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
@@ -22,12 +20,12 @@ export const HeaderTitle = styled.p`
 
 export const MenuBtn = styled.a`
   z-index: 100;
-  position: fixed;
+  /* position: fixed; */
   position: relative;
   display: block;
-  margin-left: auto;
-  height: 40px;
-  width: 40px;
+  /* margin-left: auto; */
+  height: 32px;
+  width: 32px;
   border: 3px solid white;
   border-radius: 0;
 
@@ -41,22 +39,22 @@ export const MenuBtn = styled.a`
 export const MenuBurger = styled.span`
   display: block;
   content: "";
-  width: 18px;
+  width: 20px;
   height: 3px;
   background-color: white;
   position: absolute;
-  left: 12px;
-  top: 18px;
+  left: 7px;
+  top: 15px;
   transform: translateX(0);
   opacity: 1;
 
-  transition: opacity 300ms ease, transform 300ms ease;
+  transition: opacity 500ms ease, transform 500ms ease;
 
   &::before,
   &::after {
     display: block;
     content: "";
-    width: 18px;
+    width: 20px;
     height: 3px;
     background-color: white;
     position: absolute;
@@ -79,12 +77,12 @@ export const MenuBurger = styled.span`
 
 export const MenuExit = styled.span`
   position: absolute;
-  top: 18px;
-  left: 10px;
+  top: 14.5px;
+  left: 5px;
   transform: translateX(-45px);
   opacity: 0;
 
-  transition: opacity 300ms ease, transform 300ms ease;
+  transition: opacity 500ms ease, transform 500ms ease;
 
   &::before {
     display: block;

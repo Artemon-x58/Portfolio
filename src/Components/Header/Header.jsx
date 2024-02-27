@@ -38,7 +38,7 @@ export const Header = () => {
   };
 
   return (
-    <Container>
+    <Container style={{ dispaly: "relative" }}>
       <Modal isOpen={modalIsOpen} style={customStyles}>
         <ModalList>
           <ModalItem>
@@ -58,13 +58,18 @@ export const Header = () => {
           </ModalItem>
         </ModalList>
       </Modal>
-      <MenuContainer>
-        <HeaderTitle>My portfolio</HeaderTitle>
-        <MenuBtn onClick={openModal}>
-          <MenuBurger isOpen={isOpen} />
-          <MenuExit isOpen={isOpen} />
-        </MenuBtn>
-      </MenuContainer>
+
+      <div
+        style={{ position: "relative", width: "100%", padding: 0, margin: 0 }}
+      >
+        <MenuContainer>
+          <HeaderTitle>My portfolio</HeaderTitle>
+          <MenuBtn onClick={openModal}>
+            <MenuBurger isOpen={isOpen} />
+            <MenuExit isOpen={isOpen} />
+          </MenuBtn>
+        </MenuContainer>
+      </div>
     </Container>
   );
 };

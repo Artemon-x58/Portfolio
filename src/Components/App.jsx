@@ -1,5 +1,5 @@
 import { Main } from "./Main/Main";
-import { Header } from "./header/Header";
+import { Header } from "./Header/Header";
 
 const App = () => {
   return (
