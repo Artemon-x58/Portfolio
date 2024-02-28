@@ -4,8 +4,8 @@ export const AboutMeTitle = styled.h2`
   margin-bottom: 20px;
 
   color: white;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: bold;
   line-height: 1.4;
   text-align: center;
 
@@ -53,8 +53,9 @@ export const AboutMeSubtitle = styled.h3`
 
 export const AboutMeText = styled.p`
   color: white;
-  font-size: 14px;
+
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
   text-align: center;
 `;

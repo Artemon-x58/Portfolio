@@ -19,7 +19,7 @@ export const AboutMeSection = () => {
         <AboutMeTitle>About me</AboutMeTitle>
         <AboutMeList>
           <AboutMeItem>
-            <AboutMeSubtitle>A little about yourself</AboutMeSubtitle>
+            <AboutMeSubtitle>A little bit about myself</AboutMeSubtitle>
             <AboutMeImg src={me} />
             <AboutMeText>
               I&apos;m 26 years old and I&apos;m an aspiring frontend developer
