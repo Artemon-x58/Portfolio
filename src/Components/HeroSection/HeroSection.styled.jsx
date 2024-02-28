@@ -14,9 +14,9 @@ export const HeroImg = styled.div`
 `;
 
 export const WrapperHero = styled.div`
-  border: 1px solid #cd853f;
+  border: 2px solid #cd853f;
   border-radius: 20px;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 18px 20px 18px;
 `;
 
 export const TitleHero = styled.h1`

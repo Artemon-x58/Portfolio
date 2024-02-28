@@ -4,8 +4,8 @@ export const TitleTechSkills = styled.h2`
   margin-bottom: 20px;
 
   color: white;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: bold;
   line-height: 1.4;
   text-align: center;
 
@@ -30,17 +30,25 @@ export const ListTechSkills = styled.ul`
 
 export const ItemTechSkills = styled.li`
   width: 100%;
+  height: 25px;
 
   background-color: grey;
 `;
 
 export const ItemWrapperTechSkills = styled.div``;
 
-export const ItemNameTechSkills = styled.div`
-  width: 80px;
-  background-color: #f4a460;
+export const ItemNameWrapperTechSkills = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  font-size: 14px;
+  width: 85px;
+  height: 100%;
+  background-color: #f4a460;
+`;
+
+export const ItemNameTextTechSkills = styled.p`
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
   text-align: center;
@@ -49,4 +57,5 @@ export const ItemNameTechSkills = styled.div`
 export const ItemLevelTechSkills = styled.div`
   background-color: #cd853f;
   width: 80%;
+  height: 100%;
 `;

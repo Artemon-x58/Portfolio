@@ -2,7 +2,8 @@ import { Container } from "../Cotainer/Cotainers.styled";
 import { Section } from "../Section/Section";
 import {
   ItemLevelTechSkills,
-  ItemNameTechSkills,
+  ItemNameWrapperTechSkills,
+  ItemNameTextTechSkills,
   ItemTechSkills,
   ListTechSkills,
   TitleTechSkills,
@@ -16,47 +17,65 @@ export const TechSkillsSection = () => {
         <ListTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills>
-              <ItemNameTechSkills>HTML5</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>HTML5</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills>
-              <ItemNameTechSkills>CSS3</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>CSS3</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills>
-              <ItemNameTechSkills>JavaScript</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>JavaScript</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills>
-              <ItemNameTechSkills>React</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>React</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills>
-              <ItemNameTechSkills>Redux</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>Redux</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills style={{ width: "70%" }}>
-              <ItemNameTechSkills>Node.js</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>Node.js</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills style={{ width: "70%" }}>
-              <ItemNameTechSkills>MongoDB</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>MongoDB</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills style={{ width: "70%" }}>
-              <ItemNameTechSkills>Git</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>Git</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
           <ItemTechSkills>
             <ItemLevelTechSkills style={{ width: "65%" }}>
-              <ItemNameTechSkills>Figma</ItemNameTechSkills>
+              <ItemNameWrapperTechSkills>
+                <ItemNameTextTechSkills>Figma</ItemNameTextTechSkills>
+              </ItemNameWrapperTechSkills>
             </ItemLevelTechSkills>
           </ItemTechSkills>
         </ListTechSkills>
