@@ -65,8 +65,8 @@ export const Header = () => {
         <MenuContainer>
           <HeaderTitle>My portfolio</HeaderTitle>
           <MenuBtn onClick={openModal}>
-            <MenuBurger isOpen={isOpen} />
-            <MenuExit isOpen={isOpen} />
+            <MenuBurger $isOpen={isOpen ? 1 : 0} />
+            <MenuExit $isOpen={isOpen ? 1 : 0} />
           </MenuBtn>
         </MenuContainer>
       </div>

@@ -68,7 +68,7 @@ export const MenuBurger = styled.span`
   }
 
   ${(props) =>
-    props.isOpen &&
+    props.isopen &&
     `
     opacity: 0;
     transform: translateX(45px);
@@ -106,7 +106,7 @@ export const MenuExit = styled.span`
   }
 
   ${(props) =>
-    props.isOpen &&
+    props.isopen &&
     `
     opacity: 1;
     transform: translateX(0);

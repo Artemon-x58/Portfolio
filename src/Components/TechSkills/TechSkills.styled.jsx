@@ -26,6 +26,8 @@ export const ListTechSkills = styled.ul`
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
+  opacity: ${({ $isVisible }) => ($isVisible ? 1 : 0.5)};
+  transition: opacity 1s ease;
 `;
 
 export const ItemTechSkills = styled.li`
